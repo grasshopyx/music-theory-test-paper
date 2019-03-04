@@ -1,0 +1,90 @@
+\documentclass[a4paper]{ctexart}
+\usepackage{zhnumber} % to insert a Chinese date
+\ctexset{section/format=\Large\bfseries} %  to left align the section title 
+
+
+\usepackage{amsmath}
+\newtheorem{problem}{题}
+\renewcommand\thesection{\zhnum{section}}
+
+\pagenumbering{gobble}
+
+\title{\textbf{2019年春季纳新理综A卷} \\
+  \vspace{5mm}
+  \large 满分 10 分
+}
+\author{\textit{研究生艺术团钢琴组} \hspace{2mm} \zhdate{2019/03/12} }
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{分析题(每题~2~分)}
+
+
+\begin{problem}
+请在乐谱下方写出音程名称，如大三度、小二度.
+\end{problem}
+
+\begin{lilypond}
+\language "english"
+{
+ \clef F <e a>1 <b c> <ff df> <b f>
+}
+\end{lilypond}
+
+\vspace{5mm}
+
+
+\begin{problem}
+  判断下列音阶的调性调式，如$\rm C$大调、$\rm A$小调.
+\end{problem}
+
+\begin{lilypond}
+\language "english"
+\relative c' {
+  ef f g af bf c d ef  \bar "|."
+}
+{
+  \clef F
+  d e f g a bf c' d'  \bar "|."
+}
+\end{lilypond}
+
+\begin{problem}
+请在乐谱下方指出下列和弦的名称.
+\end{problem}
+
+\begin{lilypond}
+\language "english"
+\relative c' {
+  <e g b>1 |
+  <cs e gs cs> 1 |
+  <g d' f b> |
+  <a c fs d> |
+}
+\end{lilypond}
+
+\vspace{5mm}
+
+\section{判断题(每题~1~分)}
+\begin{problem}
+和声小调升高第七级音.
+\end{problem}
+
+\begin{problem}
+七和弦有三种转位.
+\end{problem}
+
+\begin{problem}
+~$\rm G$小调的关系大调是降$\rm B$大调.
+\end{problem}
+
+\begin{problem}
+多里亚调式可以看成升高第六级音的自然小调.
+\end{problem}
+
+
+
+\end{document}
+
