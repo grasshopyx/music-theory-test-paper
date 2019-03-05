@@ -9,10 +9,13 @@
 
 \pagenumbering{gobble}
 
-\title{\textbf{2019年春季纳新理综B卷}}
-\author{\textit{研究生艺术团钢琴组}}
+\title{\textbf{2019年春季纳新理综B卷} \\
+  \vspace{5mm}
+  \large 满分 10 分
+}
+\author{\textit{研究生艺术团钢琴组} \hspace{2mm} \zhdate{2019/03/12} }
+\date{}
 
-\date{\zhdate{2019/03/12}}
 \begin{document}
 \maketitle
 
@@ -27,7 +30,7 @@
 \language "english"
 {
  %\clef F <e a>1 <b c> <ff df> <b f>
- \clef F <d a>1 <bf c> <ff ds> <b f>
+ \clef F <d a>1 <bf c> <ff d> <b f>
 }
 \end{lilypond}
 
